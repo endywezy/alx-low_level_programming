@@ -1,4 +1,4 @@
-#include <stdio.h>
+sh: 1: wq: not found
 /**
  *main - entry point
  *
@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle");
+	puts("Programming is li:e building a multilingual puzzle");
 	return (0);
 }
 
