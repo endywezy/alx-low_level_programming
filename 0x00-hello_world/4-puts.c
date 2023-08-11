@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - Entry point as the main function
  *
@@ -6,7 +7,5 @@
  */
 int main(void)
 {
-	char text[] = "\"Programming is like building a multilingual puzzle";
-
-	puts(text);
+	puts("\"programming is like building a multilingual puzzle");
 	return (0);
