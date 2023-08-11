@@ -1,12 +1,12 @@
-sh: 1: wq: not found
+#include <stdio.h>
 /**
- *main - entry point
+ * main - Entry point as the main function
  *
- *return : always 0 (success)
+ * Return: Always 0
  */
 int main(void)
 {
-	puts("Programming is li:e building a multilingual puzzle");
-	return (0);
-}
+	char text[] = "\"Programming is like building a multilingual puzzle";
 
+	puts(text);
+	return (0);
