@@ -2,7 +2,6 @@
 /**
  * _slower - checks for lowsecase character
  * @c: the charaxter to be checked
- *
  * Return: 1 if @c is lowercase, 0 otherwise.
  */
 
