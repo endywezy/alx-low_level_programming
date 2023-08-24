@@ -9,17 +9,17 @@
 
 int _strcmp(char *s1, char *s2)
 {
-	int e;
+	int i;
 
-	    for (e = 0 ; s1[e] != '\0' || s2[e] != '\0' ; e++)
-	    {
-		    if (s1[e] != s2[e])
-		    {
-			    if (s1[e] < s2[e])
-				    return (s1[e] - s2[e]);
-			    else if (s2[e] < s1[e])
-				    return (s1[e] - s2[e]);
-		    }
-	    }
-	    return (0);
+	for (i = 0 ; s1[i] != '\0' || s2[i] != '\0' ; i++)
+	{
+		if (s1[i] != s2[i])
+		{
+			if (s1[i] < s2[i])
+				return (s1[i] - s2[i]);
+			else if (s2[i] < s1[i])
+				return (s1[i] - s2[i]);
+		}
+	}
+	return (0);
 }
