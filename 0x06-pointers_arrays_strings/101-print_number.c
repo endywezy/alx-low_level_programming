@@ -12,9 +12,20 @@ void print_number(int n)
 		_putchar('-');
 		n = -n;
 	}
-	if (n / 10 != 0)
+
+	int divisor = 1;
+	int temp = n;
+
+	while (temp > 9)
 	{
-		print_number(n / 10);
+		divisor *= 10;
+		temp /10;
 	}
-	_putchar(n % 10 + '0');
+
+	while (divisor !=0)
+	{
+		_putchar((n / divisor) '0');
+		n % = divior;
+		divisor /=10;
+	}
 }
