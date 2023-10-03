@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * create_file - Creates a file with the given name and content, and sets the permissions
+ * create_file - Creates a file with the given name and cont
  * @filename: The name of the file to create.
  * @text_content: The content of the file to create.
  * Return: 1 on success, -1 on failure.
