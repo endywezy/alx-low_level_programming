@@ -2,7 +2,7 @@
 
 /**
  * get_endianness - checks if a machine is little or big endian
- * inion - A union to interp
+ * union - A union to interp
  * Return: 0 for big, 1 for little
  */
 int get_endianness(void)
