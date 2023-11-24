@@ -3,11 +3,15 @@
 
 /**
  * get_endianness - checks if a machine is little or big endian
- * union: store int and char
  * Return: 0 for big, 1 for little
  */
 int get_endianness(void)
 {
+	/**
+	 *  union - A union to inthe same memory 
+	 *  @i: An integer.
+	 *  @c: A character.
+	 */
 	union
 	{
 		int i;
