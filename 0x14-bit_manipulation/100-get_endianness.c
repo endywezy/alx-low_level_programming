@@ -3,15 +3,11 @@
 
 /**
  * get_endianness - checks if a machine is little or big endian
+ * @u: the interp
  * Return: 0 for big, 1 for little
  */
 int get_endianness(void)
 {
-	/**
-	 *  union - A union to inthe same memory 
-	 *  @i: An integer.
-	 *  @c: A character.
-	 */
 	union
 	{
 		int i;
@@ -19,5 +15,8 @@ int get_endianness(void)
 	}
 	u;
 	u . i = 1;
+	/* Unused variables are causing warnings, ignore them using (void) */
+	(void)u.i;
+	(void)u.c;
 	return (u . c == 1);
 }
