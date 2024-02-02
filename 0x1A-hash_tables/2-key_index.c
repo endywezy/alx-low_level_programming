@@ -12,9 +12,12 @@
  */
 unsigned long int key_index(const unsigned char *key, unsigned long int size)
 {
-	/* Use the hash_djb2 function to calculate the hash */
-	unsigned long int hash_value = hash_djb2(key);
+    /*Calculate the hash value using the hash_djb2 function*/
+    unsigned long int hash_value = hash_djb2(key);
 
-	/* Return the index by taking the remainder of the hash with the size */
-	return (hash_value % size);
+    /*Use the hash value to determine the index within the array size*/
+    unsigned long int index = hash_value % size;
+
+    return index;
 }
+
