@@ -2,7 +2,7 @@
 
 /**
  * hash_table_set - This adds or updates an element in a hash table.
- * @hash_table: A pointer to the hash table.
+ * @hash_t: A pointer to the hash table.
  * @key: The key to add - cannot be an empty string.
  * @value: The value associated with the key.
  *
