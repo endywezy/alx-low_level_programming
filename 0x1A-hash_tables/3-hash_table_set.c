@@ -2,14 +2,14 @@
 
 /**
  * hash_table_set - This adds or updates an element in a hash table.
- * @hash_t: A pointer to the hash table.
+ * @ht: A pointer to the hash table.
  * @key: The key to add - cannot be an empty string.
  * @value: The value associated with the key.
  *
  * Return: Upon failure - 0.
  *         Otherwise - 1.
  */
-int hash_table_set(hash_table_t *hash_t, const char *key, const char *value)
+int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
 	hash_node_t *new_node;
 	char *value_copy;
