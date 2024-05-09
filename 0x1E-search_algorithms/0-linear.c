@@ -9,7 +9,7 @@
   * @size: no of eles in array
   * @value: value to search for
   *
-  * Return: -1
+  * Return: -1, 0, NULL
   */
 int linear_search(int *array, size_t size, int value)
 {
